@@ -26,7 +26,7 @@ def limpiar_lista():
 @app.route('/')
 def index():
     """Vista llamada index, ligada a la ruta raíz, """
-    return render_template('index.html')
+    return render_template('vista_de_usuario.html')
 
 
 # @app.route('/static/js/<filename>')
